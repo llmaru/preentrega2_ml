@@ -45,6 +45,7 @@ nav .nav-link:hover {
   opacity: 0.9;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: 1;
 }
 
 .titulo_principal {
