@@ -1,0 +1,60 @@
+
+@media only screen and (max-width: 600px){
+    .grid_section{
+        height: 2000px;
+        grid-template-columns: 90%;
+        grid-template-rows: 100px 100px 250px 70px 300px; 
+        grid-template-areas: "titulo_principal" 
+                             "titulo_secundario "
+                             "parrafo"
+                             "btn"
+                             "img";
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        } 
+    
+        .titulo_secundario{
+            font-size: $tamanio_tipografiaprincipal;
+            
+        }
+        .pindex{
+            font-size: 15px;
+        }
+        .nosotros{
+            display:flex;
+            flex-direction: column;
+            gap:10px;
+            height: 100%;
+        }
+        .cv{
+            width: 85%;
+            height: 350px;
+        }
+        .bloque_cartas{
+            margin-top: 20px;
+        
+        }
+        .p_card{
+            padding: 0px;
+            font-size: 15px;
+            height: 200px;
+        }
+        .img_card{
+            object-fit: 200px;
+        }
+        .h2_card{
+            font-size: 18px;
+            height: 60px;
+
+        }
+                
+         .navbar-nav{
+            width:fit-content;
+            background-color:$color_navdesplegable;
+            z-index: 1;
+            text-align: center;
+        }
+       
+       
+    }

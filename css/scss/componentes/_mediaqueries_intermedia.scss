@@ -1,0 +1,25 @@
+@media only screen and (min-width: 600px){
+    .grid_section{
+        height: 1200px;
+        grid-template-columns: 90%;
+        grid-template-rows: 100px 65px 200px 60px 300px; 
+        grid-template-areas: "titulo_principal" 
+                             "titulo_secundario "
+                             "parrafo"
+                             "btn"
+                             "img";
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        } 
+    
+                 
+        .navbar-nav{
+            width:fit-content;
+            background-color:$color_navdesplegable;
+            z-index: 1;
+            text-align: center;
+        }
+          
+         
+}

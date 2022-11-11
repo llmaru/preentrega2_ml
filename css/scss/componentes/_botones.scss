@@ -1,0 +1,50 @@
+
+
+.btn_card{
+    
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: $color_secundario;
+    font-size: 30px;
+    justify-content:center;
+    align-items: center;
+    
+        
+}
+.btn_card:hover{
+color: $color_hover;
+}
+
+
+
+
+.btn-primary{
+color:$color_tipografia;
+font-size: 20px;
+font-family:$tipografia_principal;
+background-color: $color_hover;
+
+
+}
+
+
+.btn-outline-danger{
+grid-area: btn;
+font-size: 15px;
+font-style: bold;
+bottom: $tamanio_tipografiaprincipal;
+color: $color_tipografia;
+background-color: $color_boton;
+border-color:$borde_boton;
+
+  
+}
+
+.btn-outline-danger:hover{
+background-color: $color_botonhover;
+border-color: $borde_botonhover;
+color:$color_tipografia;
+
+}

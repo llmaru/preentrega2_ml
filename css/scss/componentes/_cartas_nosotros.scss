@@ -1,0 +1,59 @@
+
+.bloque_cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 80%;
+
+}
+
+.nosotros{
+    display:flex;
+    height: 700px;
+    width: 85%;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: $color_principal;
+
+    
+}
+
+.cv{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:$color_tipografia;
+    height: 100%;
+    width: 30%;
+
+}
+
+.h2_card{
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p_card{
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    height: 60%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.img_card{
+    width: 90%;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+

@@ -1,0 +1,24 @@
+
+.bloque_servicios{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    z-index: -1;
+    
+}
+
+.text-end{
+    width: 80%;
+    
+}
+
+.card-title{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-text-end{
+    text-align: justify;
+    font-size: $tamanio_tipografiaprincipal;
+}

@@ -1,0 +1,36 @@
+
+.img_index{
+    grid-area: img;
+    opacity: 0.9;
+    object-fit: cover;
+    
+}
+
+.titulo_principal{
+    font-size: 50px;
+    font-family: $tipografia_h1;
+    grid-area: titulo_principal;
+}
+
+.titulo_secundario{
+    font-size: 25px;
+    font-family: $tipografia_secundaria;
+    grid-area: titulo_secundario;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.pindex{
+    color: black;
+    font-family: $tipografia_pindex;
+    font-size: $tamanio_tipografiaprincipal;
+    text-align: center;
+    grid-area: parrafo;
+    background-color: $color_tipografia;
+    height: 200px;
+    padding: 20px;
+  
+}
