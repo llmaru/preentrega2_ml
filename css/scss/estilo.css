@@ -240,8 +240,8 @@ footer .icons li i:hover {
   .navbar-nav {
     width: 25%;
     background-color: rgb(252, 178, 170);
-    z-index: 1;
     text-align: center;
+    z-index: 1;
   }
   .nav-link {
     color: beige;
@@ -263,8 +263,8 @@ footer .icons li i:hover {
   .navbar-nav {
     width: 25%;
     background-color: rgb(252, 178, 170);
-    z-index: 1;
     text-align: center;
+    z-index: 1;
   }
 }
 @media only screen and (min-width: 992px) {

@@ -50,7 +50,7 @@
         }
                 
          .navbar-nav{
-            @include estilonavhamburguesa (25%, rgb(252, 178, 170), center) 
+            @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
             z-index: 1;
             
         }
