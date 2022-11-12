@@ -15,7 +15,11 @@
         margin-top: 100px;
         margin-bottom: 30px;
     }
-   
+    .nav-link{
+        color: $color_tipografia;
+        font-size: $tamanio_tipografiaprincipal;
+        width: 150px;
+       }
    
     .navbar-nav{
         width: 100%;

@@ -2,7 +2,7 @@
 .img_index{
     grid-area: img;
     opacity: 0.9;
-    object-fit: cover;
+    object-fit:contain;
     z-index:+1;
     
 }
@@ -30,8 +30,7 @@
     font-size: $tamanio_tipografiaprincipal;
     text-align: center;
     grid-area: parrafo;
-    background-color: $color_tipografia;
-    height: 200px;
+    background-color:   rgb(138, 218, 213);
     padding: 20px;
   
 }

@@ -19,7 +19,7 @@
             
         }
         .pindex{
-            font-size: 15px;
+            font-size:15px;
         }
         .nosotros{
             display:flex;
@@ -50,11 +50,12 @@
         }
                 
          .navbar-nav{
-            width:fit-content;
-            background-color:$color_navdesplegable;
+            @include estilonavhamburguesa (25%, rgb(252, 178, 170), center) 
             z-index: 1;
-            text-align: center;
+            
         }
-       
+       .nav-link{
+        color:beige;
+       }
        
     }

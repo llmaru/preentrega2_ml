@@ -1,0 +1,5 @@
+@mixin estilonavhamburguesa ($ancho, $colorfondo, $alineaciontexto){
+    width:$ancho;
+    background-color: $colorfondo;
+    text-align: $alineaciontexto;
+}  

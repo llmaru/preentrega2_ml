@@ -6,6 +6,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     z-index: -1;
+    gap:15px;
     
 }
 
@@ -16,7 +17,7 @@
 
 .card-title{
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $tipografia_principal;
 }
 .card-text-end{
     text-align: justify;

@@ -21,7 +21,7 @@ color: $color_hover;
 
 
 .btn-primary{
-color:$color_tipografia;
+color:beige;
 font-size: 20px;
 font-family:$tipografia_principal;
 background-color: $color_hover;
@@ -35,7 +35,7 @@ grid-area: btn;
 font-size: 15px;
 font-style: bold;
 bottom: $tamanio_tipografiaprincipal;
-color: $color_tipografia;
+color: beige;
 background-color: $color_boton;
 border-color:$borde_boton;
 
@@ -45,6 +45,5 @@ border-color:$borde_boton;
 .btn-outline-danger:hover{
 background-color: $color_botonhover;
 border-color: $borde_botonhover;
-color:$color_tipografia;
-
+color:beige;
 }
