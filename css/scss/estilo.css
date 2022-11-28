@@ -99,29 +99,6 @@ nav .nav-link:hover {
   box-shadow: 3px 3px 5px rgb(205, 208, 209);
 }
 
-.h2_card {
-  text-align: center;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.p_card {
-  padding: 30px;
-  text-align: center;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.img_card {
-  width: 80%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: 10px;
-}
-
 .bloque_servicios {
   display: flex;
   flex-direction: column;
@@ -233,13 +210,13 @@ footer .icons li i:hover {
     display: flex;
     align-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .p_card {
-    padding: 5px;
+    padding: 3px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .img_card {
@@ -372,6 +349,7 @@ footer .icons li i:hover {
   justify-content: center;
   align-items: center;
   height: 10%;
+  padding: 5px;
 }
 
 .btn_card:hover {
