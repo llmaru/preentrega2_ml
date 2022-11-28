@@ -1,4 +1,4 @@
-@import "../variables/variables";
+
 
 *{
     margin: 0;
@@ -7,11 +7,14 @@
 
 body{
     background-color: $color_principal;
+    min-height: 1320px;
+    }
 
-}
 main{
     background-color:$color_principal;
     height: 1200px;
+    
+  
 }
 
 

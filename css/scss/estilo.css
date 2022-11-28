@@ -5,6 +5,7 @@
 
 body {
   background-color: white;
+  min-height: 1320px;
 }
 
 main {
@@ -32,7 +33,7 @@ nav .navbar-nav {
   position: sticky;
 }
 nav .nav-link:hover {
-  color: rgb(99, 99, 250);
+  color: rgb(135, 135, 255);
 }
 
 .img_index {
@@ -44,27 +45,28 @@ nav .nav-link:hover {
 }
 
 .titulo_principal {
-  font-size: 50px;
-  font-family: "Economica", sans-serif;
+  font-size: 40px;
+  font-family: "Jost", sans-serif;
   grid-area: titulo_principal;
+  text-align: center;
 }
 
 .titulo_secundario {
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
   grid-area: titulo_secundario;
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: rgb(89, 91, 93);
 }
 
 .pindex {
-  color: black;
+  color: grey 47, 46, 46;
   font-family: "Comfortaa", cursive;
-  font-size: 20px;
+  font-style: italic;
+  font-size: 18px;
   text-align: center;
   grid-area: parrafo;
-  background-color: rgb(138, 218, 213);
   padding: 20px;
 }
 
@@ -73,8 +75,7 @@ nav .nav-link:hover {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 100px;
-  margin-bottom: 100px;
-  height: 80%;
+  margin-bottom: 400px;
 }
 
 .nosotros {
@@ -94,31 +95,31 @@ nav .nav-link:hover {
   background-color: rgb(138, 218, 213);
   height: 100%;
   width: 30%;
+  box-shadow: 3px 3px 5px rgb(205, 208, 209);
 }
 
 .h2_card {
   text-align: center;
-  height: 200px;
   display: flex;
   align-content: center;
   align-items: center;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .p_card {
   padding: 30px;
   text-align: center;
   font-size: 18px;
-  height: 60%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .img_card {
   width: 90%;
   margin-top: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px;
 }
 
 .bloque_servicios {
@@ -130,23 +131,17 @@ nav .nav-link:hover {
   z-index: -1;
   gap: 15px;
 }
-
-.text-end {
+.bloque_servicios .text-end {
   width: 80%;
+  box-shadow: 3px 3px 5px rgb(135, 135, 255);
 }
-
-.card-title {
+.bloque_servicios .text-end .card-title {
   font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.card-text-end {
+.bloque_servicios .text-end .card-text-end {
   text-align: justify;
-  font-size: 20px;
-}
-
-#carouselExampleControls {
-  width: 60%;
+  font-size: 18px;
 }
 
 .carousel1 {
@@ -156,10 +151,8 @@ nav .nav-link:hover {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-.barra_formulario {
-  width: 50%;
-  justify-content: center;
+.carousel1 #carouselExampleControls {
+  width: 60%;
 }
 
 .formulario_contacto {
@@ -167,16 +160,21 @@ nav .nav-link:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  gap: 10px;
+  margin-bottom: 100px;
+  font-size: 18px;
+  gap: 20px;
+}
+.formulario_contacto .barra_formulario {
+  width: 50%;
+  justify-content: center;
 }
 
 footer {
   display: flex;
-  flex-direction: column;
-  height: 60px;
+  width: 100%;
+  height: 200px;
   background-color: rgb(138, 218, 213);
+  margin-bottom: 0px;
 }
 footer .icons {
   display: flex;
@@ -186,27 +184,33 @@ footer .icons {
 }
 footer .icons li {
   list-style-type: none;
-  color: beige;
   font-size: 30px;
   justify-content: center;
   align-items: center;
 }
+footer .icons li a {
+  color: beige;
+}
 footer .icons li i:hover {
-  color: rgb(99, 99, 250);
+  color: rgb(135, 135, 255);
 }
 
 @media only screen and (max-width: 600px) {
   .grid_section {
-    height: 2000px;
+    height: 1000px;
     grid-template-columns: 90%;
-    grid-template-rows: 100px 100px 250px 70px 300px;
+    grid-template-rows: 100px 60px 250px 70px 300px;
     grid-template-areas: "titulo_principal" "titulo_secundario " "parrafo" "btn" "img";
     justify-content: space-around;
     align-items: center;
     justify-items: center;
+    margin-top: 100px;
+  }
+  .titulo_principal {
+    font-size: 30px;
   }
   .titulo_secundario {
-    font-size: 20px;
+    font-size: 18px;
   }
   .pindex {
     font-size: 15px;
@@ -225,13 +229,13 @@ footer .icons li i:hover {
     margin-top: 20px;
   }
   .p_card {
-    padding: 0px;
+    padding: 5px;
     font-size: 15px;
     height: 200px;
   }
   .img_card {
-    -o-object-fit: 200px;
-       object-fit: 200px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .h2_card {
     font-size: 18px;
@@ -249,13 +253,14 @@ footer .icons li i:hover {
 }
 @media only screen and (min-width: 600px) {
   .grid_section {
-    height: 1200px;
+    height: 1500px;
     grid-template-columns: 90%;
     grid-template-rows: 100px 65px 200px 60px 300px;
     grid-template-areas: "titulo_principal" "titulo_secundario " "parrafo" "btn" "img";
     justify-content: space-around;
     align-items: center;
     justify-items: center;
+    margin-top: 100px;
   }
   .nav-link {
     color: beige;
@@ -266,8 +271,17 @@ footer .icons li i:hover {
     text-align: center;
     z-index: 1;
   }
+  .p_card {
+    height: 60%;
+  }
+  .h2_card {
+    height: 10%;
+  }
+  .img_card {
+    height: 30%;
+  }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 900px) {
   .grid_section {
     grid-template-columns: 45% 40%;
     grid-template-rows: 30% 20% 40% 10%;
@@ -279,11 +293,11 @@ footer .icons li i:hover {
     background-color: white;
     height: 500px;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
   .nav-link {
     color: rgb(3, 187, 175);
-    font-size: 20px;
+    font-size: 18px;
     width: 150px;
   }
   .navbar-nav {
@@ -293,6 +307,13 @@ footer .icons li i:hover {
     background-color: white;
   }
 }
+.boton, .btn-outline-danger, .btn-primary {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+  border: none;
+}
+
 .btn_card {
   width: 10%;
   display: flex;
@@ -305,28 +326,22 @@ footer .icons li i:hover {
 }
 
 .btn_card:hover {
-  color: rgb(99, 99, 250);
+  color: rgb(135, 135, 255);
 }
 
 .btn-primary {
-  color: beige;
-  font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(99, 99, 250);
+  background-color: rgb(135, 135, 255);
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .btn-outline-danger {
   grid-area: btn;
-  font-size: 15px;
   font-style: bold;
-  bottom: 20px;
-  color: beige;
   background-color: rgb(255, 132, 161);
-  border-color: rgb(255, 132, 161);
 }
 
 .btn-outline-danger:hover {
   background-color: rgb(255, 75, 117);
-  border-color: rgb(255, 75, 117);
   color: beige;
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px){
     .grid_section{
-        height: 1200px;
+        height: 1500px;
         grid-template-columns: 90%;
         grid-template-rows: 100px 65px 200px 60px 300px; 
         grid-template-areas: "titulo_principal" 
@@ -11,18 +11,27 @@
         justify-content: space-around;
         align-items: center;
         justify-items: center;
+        margin-top: 100px;
         } 
-    
+        
+        
         .nav-link{
-            color:beige;
+            color:$color_tipografia2;
         }       
         
         .navbar-nav{
             @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
             z-index: 1;
            
-
         }
-          
+        .p_card{
+            height:60%;
+        }
+        .h2_card  {
+            height: 10%;
+        } 
+        .img_card{
+           height: 30%
+        }    
          
 }

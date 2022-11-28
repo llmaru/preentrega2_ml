@@ -8,29 +8,33 @@
 }
 
 .titulo_principal{
-    font-size: 50px;
+    font-size: 40px;
     font-family: $tipografia_h1;
     grid-area: titulo_principal;
+    text-align: center;
 }
 
 .titulo_secundario{
-    font-size: 25px;
-    font-family: $tipografia_secundaria;
+    font-size: 20px;
+    font-family: $tipografia_pindex;
     grid-area: titulo_secundario;
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color:rgb(89, 91, 93);
+   
+    
     
 }
 
 
 .pindex{
-    color: black;
+    color: grey (47, 46, 46);
     font-family: $tipografia_pindex;
+    font-style: italic;
     font-size: $tamanio_tipografiaprincipal;
     text-align: center;
     grid-area: parrafo;
-    background-color:   rgb(138, 218, 213);
     padding: 20px;
+
   
 }

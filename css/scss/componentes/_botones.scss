@@ -1,4 +1,9 @@
-
+.boton{
+    font-size: 15px;
+    font-family: $tipografia_principal;
+    color:$color_tipografia2;
+    border: none;
+}
 
 .btn_card{
     
@@ -21,29 +26,25 @@ color: $color_hover;
 
 
 .btn-primary{
-color:beige;
-font-size: 20px;
-font-family:$tipografia_principal;
+@extend .boton;
 background-color: $color_hover;
-
+margin-top: 10px;
+margin-left:5px;
 
 }
 
 
 .btn-outline-danger{
+@extend .boton;
 grid-area: btn;
-font-size: 15px;
 font-style: bold;
-bottom: $tamanio_tipografiaprincipal;
-color: beige;
 background-color: $color_boton;
-border-color:$borde_boton;
 
-  
+
+
 }
 
 .btn-outline-danger:hover{
 background-color: $color_botonhover;
-border-color: $borde_botonhover;
-color:beige;
+color:$color_tipografia2;
 }

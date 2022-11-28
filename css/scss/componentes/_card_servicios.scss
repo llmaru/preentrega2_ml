@@ -3,23 +3,22 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    @include margenes (100px, 100px);
     z-index: -1;
     gap:15px;
-    
-}
-
-.text-end{
+  
+   .text-end{
     width: 80%;
+    box-shadow: 3px 3px 5px $color_hover;
     
-}
+         .card-title{
+             font-size: 30px;
+             font-family: $tipografia_principal;
+             }
+         .card-text-end{
+             text-align: justify;
+             font-size: $tamanio_tipografiaprincipal;
+             }
+        }
+    }
 
-.card-title{
-    font-size: 30px;
-    font-family: $tipografia_principal;
-}
-.card-text-end{
-    text-align: justify;
-    font-size: $tamanio_tipografiaprincipal;
-}

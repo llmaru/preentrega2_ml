@@ -3,3 +3,8 @@
     background-color: $colorfondo;
     text-align: $alineaciontexto;
 }  
+
+@mixin margenes ($margintop, $marginbottom){
+    margin-top: $margintop;
+    margin-bottom: $marginbottom;
+}

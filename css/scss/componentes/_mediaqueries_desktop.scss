@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 900px){
     .grid_section{  
         grid-template-columns: 45% 40%;
         grid-template-rows: 30% 20% 40% 10%;
@@ -12,9 +12,9 @@
         align-items: center;
         background-color: $color_principal;
         height: 500px;
-        margin-top: 100px;
-        margin-bottom: 30px;
+        @include margenes (100px, 100px);
     }
+    
     .nav-link{
         color: $color_tipografia;
         font-size: $tamanio_tipografiaprincipal;
@@ -27,4 +27,7 @@
         font-family:$tipografia_principal;
         background-color: $color_secundario;
     }
+
+    
+    
 }
