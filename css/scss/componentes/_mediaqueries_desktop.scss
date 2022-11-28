@@ -32,5 +32,28 @@
       
     }
     
+.h2_card{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family:$tipografia_secundaria;
+}
+
+.p_card{
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family:$tipografia_principal;
+    
+}
+
+.img_card{
+    width: 80%;
+    object-fit: contain;
+    padding:10px;
+}
+    
     
 }

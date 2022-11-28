@@ -29,15 +29,33 @@
             height: 700px;
         }
         
-        .p_card{
-            height:50%;
-            font-size: 15px;
-        }
-        .h2_card  {
-            height: 10%;
-        } 
-        .img_card{
-           height: 30%
-        }    
-         
+        
+.h2_card{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family:$tipografia_secundaria;
+    height: 10%;
+}
+
+.p_card{
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family:$tipografia_principal;
+    height:50%;
+    
+}
+
+.img_card{
+    width: 80%;
+    object-fit: contain;
+    padding:10px;
+    height: 30%
+}
+        
+     
+       
 }

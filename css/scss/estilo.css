@@ -75,7 +75,7 @@ nav .nav-link:hover {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 100px;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 
 .nosotros {
@@ -117,7 +117,6 @@ nav .nav-link:hover {
 
 .img_card {
   width: 80%;
-  margin-top: 10px;
   -o-object-fit: contain;
      object-fit: contain;
   padding: 10px;
@@ -220,7 +219,7 @@ footer .icons li i:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 1000px;
+    height: 1100px;
   }
   .cv {
     width: 85%;
@@ -229,18 +228,25 @@ footer .icons li i:hover {
   .bloque_cartas {
     margin-top: 20px;
   }
+  .h2_card {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
   .p_card {
     padding: 5px;
+    text-align: center;
     font-size: 15px;
-    height: 30%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .img_card {
+    width: 80%;
     -o-object-fit: contain;
        object-fit: contain;
-  }
-  .h2_card {
-    font-size: 16px;
-    height: 5%;
+    padding: 10px;
   }
   .navbar-nav {
     width: 25%;
@@ -275,14 +281,27 @@ footer .icons li i:hover {
   .cv {
     height: 700px;
   }
-  .p_card {
-    height: 50%;
-    font-size: 15px;
-  }
   .h2_card {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: 10%;
   }
+  .p_card {
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 50%;
+  }
   .img_card {
+    width: 80%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 10px;
     height: 30%;
   }
 }
@@ -314,6 +333,26 @@ footer .icons li i:hover {
   .cv {
     height: 500px;
   }
+  .h2_card {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .p_card {
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .img_card {
+    width: 80%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 10px;
+  }
 }
 .boton, .btn-outline-danger, .btn-primary {
   font-size: 15px;
@@ -328,7 +367,7 @@ footer .icons li i:hover {
   flex-direction: row;
   list-style-type: none;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   justify-content: center;
   align-items: center;
   height: 10%;
