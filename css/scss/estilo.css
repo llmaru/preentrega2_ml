@@ -243,7 +243,8 @@ footer .icons li i:hover {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .img_card {
-    width: 80%;
+    width: 150px;
+    height: 150px;
     -o-object-fit: contain;
        object-fit: contain;
     padding: 10px;
@@ -331,7 +332,7 @@ footer .icons li i:hover {
     background-color: white;
   }
   .cv {
-    height: 500px;
+    height: 600px;
   }
   .h2_card {
     text-align: center;
