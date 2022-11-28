@@ -84,7 +84,9 @@ nav .nav-link:hover {
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
-  height: 500px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .cv {
@@ -93,7 +95,6 @@ nav .nav-link:hover {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(138, 218, 213);
-  height: 100%;
   width: 30%;
   box-shadow: 3px 3px 5px rgb(205, 208, 209);
 }
@@ -230,7 +231,7 @@ footer .icons li i:hover {
   }
   .p_card {
     padding: 5px;
-    font-size: 12px;
+    font-size: 15px;
     height: 30%;
   }
   .img_card {
@@ -271,6 +272,9 @@ footer .icons li i:hover {
     text-align: center;
     z-index: 1;
   }
+  .cv {
+    height: 700px;
+  }
   .p_card {
     height: 50%;
     font-size: 15px;
@@ -307,6 +311,9 @@ footer .icons li i:hover {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
   }
+  .cv {
+    height: 500px;
+  }
 }
 .boton, .btn-outline-danger, .btn-primary {
   font-size: 15px;
@@ -324,6 +331,7 @@ footer .icons li i:hover {
   font-size: 30px;
   justify-content: center;
   align-items: center;
+  height: 10%;
 }
 
 .btn_card:hover {

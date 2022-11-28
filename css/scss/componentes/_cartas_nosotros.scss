@@ -16,8 +16,7 @@
     justify-content:space-evenly;
     align-items: center;
     background-color: $color_principal;
-    height: 500px;
-
+    height: fit-content;
     
 }
 
@@ -27,7 +26,6 @@
     justify-content: space-evenly;
     align-items: center;
     background-color:$color_background;
-    height: 100%;
     width: 30%;
     box-shadow: 3px 3px 5px rgb(205, 208, 209);
     
