@@ -46,22 +46,19 @@
             height: 200px;
         }
         .img_card{
-           object-fit: contain;
+           object-fit:cover;
         }
         .h2_card{
             font-size: 18px;
             height: 60px;
-
         }
                 
          .navbar-nav{
             @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
             z-index: 1;
-            
-        }
-       .nav-link{
-        color:$color_tipografia2;
-        
-       }
+         }
+         .nav-link{
+          color:$color_tipografia2;
+          }
        
     }
