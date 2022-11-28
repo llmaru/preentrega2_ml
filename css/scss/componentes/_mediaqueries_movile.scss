@@ -34,7 +34,7 @@
         }
         .cv{
             width: 85%;
-            height: 350px;
+            height: 400px;
         }
         .bloque_cartas{
             margin-top: 20px;
@@ -51,17 +51,15 @@
         .h2_card{
             font-size: 18px;
             height: 60px;
-
         }
                 
-         .navbar-nav{
+        .navbar-nav{
             @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
             z-index: 1;
-            
         }
-       .nav-link{
+
+        .nav-link{
         color:$color_tipografia2;
-        
-       }
+        }
        
     }
