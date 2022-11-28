@@ -26,7 +26,17 @@
     width: 30%;
     box-shadow: 3px 3px 5px rgb(205, 208, 209);
     
-
+    .h2_card{
+        text-align: center;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        font-family:$tipografia_secundaria;
+    }
+    .p_card{
+        font-family:$tipografia_principal;
+    }
+    
 }
 
 

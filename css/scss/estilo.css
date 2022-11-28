@@ -52,7 +52,7 @@ nav .nav-link:hover {
 }
 
 .titulo_secundario {
-  font-size: 20px;
+  font-size: 23px;
   font-family: "Comfortaa", cursive;
   grid-area: titulo_secundario;
   margin-top: 10px;
@@ -97,6 +97,16 @@ nav .nav-link:hover {
   background-color: rgb(138, 218, 213);
   width: 30%;
   box-shadow: 3px 3px 5px rgb(205, 208, 209);
+}
+.cv .h2_card {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cv .p_card {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bloque_servicios {
@@ -176,12 +186,12 @@ footer .icons li i:hover {
   .grid_section {
     height: 1000px;
     grid-template-columns: 90%;
-    grid-template-rows: 100px 60px 250px 70px 300px;
+    grid-template-rows: 100px 30px 200px 50px 300px;
     grid-template-areas: "titulo_principal" "titulo_secundario " "parrafo" "btn" "img";
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .titulo_principal {
     font-size: 30px;
@@ -206,18 +216,12 @@ footer .icons li i:hover {
     margin-top: 20px;
   }
   .h2_card {
-    text-align: center;
-    display: flex;
-    align-content: center;
-    align-items: center;
     font-size: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .p_card {
     padding: 3px;
     text-align: center;
     font-size: 13px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .img_card {
     width: 150px;
@@ -260,19 +264,13 @@ footer .icons li i:hover {
     height: 700px;
   }
   .h2_card {
-    text-align: center;
-    display: flex;
-    align-content: center;
-    align-items: center;
     font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: 10%;
   }
   .p_card {
     padding: 30px;
     text-align: center;
     font-size: 15px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: 50%;
   }
   .img_card {
@@ -312,12 +310,7 @@ footer .icons li i:hover {
     height: 600px;
   }
   .h2_card {
-    text-align: center;
-    display: flex;
-    align-content: center;
-    align-items: center;
     font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .p_card {
     padding: 30px;
