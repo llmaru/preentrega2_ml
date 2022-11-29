@@ -39,7 +39,7 @@ nav .nav-link:hover {
   opacity: 0.9;
   -o-object-fit: contain;
      object-fit: contain;
-  z-index: 1;
+  z-index: 0;
 }
 
 .titulo_principal {
@@ -255,14 +255,14 @@ footer .icons li i:hover {
     justify-items: center;
     margin-top: 100px;
   }
-  .nav-link {
-    color: beige;
-  }
   .navbar-nav {
     width: 25%;
     background-color: rgb(252, 178, 170);
     text-align: center;
     z-index: 1;
+  }
+  .nav-link {
+    color: beige;
   }
   .cv {
     height: 700px;
@@ -305,6 +305,12 @@ footer .icons li i:hover {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
   .nav-link {
     color: rgb(3, 187, 175);
     font-size: 20px;
@@ -332,12 +338,6 @@ footer .icons li i:hover {
     -o-object-fit: contain;
        object-fit: contain;
     padding: 10px;
-  }
-  header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
   }
   body {
     min-height: 1100px;

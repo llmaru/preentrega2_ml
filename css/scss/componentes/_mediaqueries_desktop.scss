@@ -14,7 +14,12 @@
         height: 500px;
         @include margenes (100px, 100px);
     }
-    
+    header{
+        position: sticky;
+        top:0;
+        z-index: 1;
+               
+    }
     .nav-link{
         color: $color_tipografia;
         font-size: $tamanio_tipografiaprincipal;
@@ -32,40 +37,36 @@
         height: 600px;
       
     }
-    
-.h2_card{
-    font-size: 18px;
-    
-}
-
-.p_card{
-    padding: 30px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.img_card{
-    width: 80%;
-    object-fit: contain;
-    padding:10px;
-}
-header{
-    position: sticky;
-    top:0;
-    z-index: 1;
-    
-}
-
-body{
-    
-    min-height: 1100px;
+        
+    .h2_card{
+        font-size: 18px;
+        
     }
 
-main{
-    
-    height: 840px;
-    
-  }
+    .p_card{
+        padding: 30px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .img_card{
+        width: 80%;
+        object-fit: contain;
+        padding:10px;
+        
+    }
+
+
+    body{
+        
+        min-height: 1100px;
+        }
+
+    main{
+        
+        height: 840px;
+        
+    }
     
     
 }
