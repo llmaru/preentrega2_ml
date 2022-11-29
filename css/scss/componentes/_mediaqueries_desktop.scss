@@ -20,19 +20,25 @@
         z-index: 1;
                
     }
+    .navbar-expand-lg {
+        flex-direction: row;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        justify-content: space-evenly;
+        font-family:$tipografia_principal;
+        background-color: $color_secundario;
+       
+        
+    }
     .nav-link{
         color: $color_tipografia;
         font-size: $tamanio_tipografiaprincipal;
         width: 150px;
        }
    
-    .navbar-nav{
-        width: 100%;
-        justify-content: space-evenly;
-        font-family:$tipografia_principal;
-        background-color: $color_secundario;
-        
-    }
+    
     .cv{
         height: 600px;
       

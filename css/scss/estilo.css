@@ -28,10 +28,6 @@ nav {
   height: 60px;
   background-color: white;
 }
-nav .navbar-nav {
-  position: -webkit-sticky;
-  position: sticky;
-}
 nav .nav-link:hover {
   color: rgb(135, 135, 255);
 }
@@ -304,16 +300,19 @@ footer .icons li i:hover {
     top: 0;
     z-index: 1;
   }
-  .nav-link {
-    color: rgb(3, 187, 175);
-    font-size: 20px;
-    width: 150px;
+  .navbar-expand-lg {
+    flex-direction: row;
   }
   .navbar-nav {
     width: 100%;
     justify-content: space-evenly;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
+  }
+  .nav-link {
+    color: rgb(3, 187, 175);
+    font-size: 20px;
+    width: 150px;
   }
   .cv {
     height: 600px;
