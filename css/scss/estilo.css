@@ -235,6 +235,9 @@ footer .icons li i:hover {
   .nav-link {
     color: beige;
   }
+  .navbar-collapse {
+    z-index: 1;
+  }
 }
 @media only screen and (min-width: 600px) {
   .grid_section {
@@ -255,6 +258,9 @@ footer .icons li i:hover {
   }
   .nav-link {
     color: beige;
+  }
+  .navbar-collapse {
+    z-index: 1;
   }
   .cv {
     height: 700px;

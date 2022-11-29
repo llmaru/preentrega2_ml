@@ -18,16 +18,19 @@
             z-index: 1;
            
         }
-                .nav-link{
+        .nav-link{
             color:$color_tipografia2;
-        }       
+        }     
+        .navbar-collapse {
+            z-index: 1;
+             
+            }  
         
         .cv{
             height: 700px;
         }
 
-               
-        
+                     
         .h2_card{
             font-size: 18px;
             height: 10%;
@@ -49,10 +52,8 @@
         }
 
         main{
-            
             height: 1000px;
           }
                 
             
-       
 }
