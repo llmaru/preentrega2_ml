@@ -5,12 +5,10 @@
 
 body {
   background-color: white;
-  min-height: 1320px;
 }
 
 main {
   background-color: white;
-  height: 1200px;
 }
 
 img {
@@ -64,7 +62,7 @@ nav .nav-link:hover {
   color: grey 47, 46, 46;
   font-family: "Comfortaa", cursive;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   grid-area: parrafo;
   padding: 20px;
@@ -128,7 +126,7 @@ nav .nav-link:hover {
 }
 .bloque_servicios .text-end .card-text-end {
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .carousel1 {
@@ -148,7 +146,7 @@ nav .nav-link:hover {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 18px;
+  font-size: 20px;
   gap: 20px;
 }
 .formulario_contacto .barra_formulario {
@@ -197,7 +195,7 @@ footer .icons li i:hover {
     font-size: 30px;
   }
   .titulo_secundario {
-    font-size: 18px;
+    font-size: 20px;
   }
   .pindex {
     font-size: 15px;
@@ -238,6 +236,12 @@ footer .icons li i:hover {
   }
   .nav-link {
     color: beige;
+  }
+  body {
+    min-height: 1320px;
+  }
+  main {
+    height: 1200px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -280,6 +284,12 @@ footer .icons li i:hover {
     padding: 10px;
     height: 30%;
   }
+  body {
+    min-height: 1000px;
+  }
+  main {
+    height: 900px;
+  }
 }
 @media only screen and (min-width: 900px) {
   .grid_section {
@@ -297,7 +307,7 @@ footer .icons li i:hover {
   }
   .nav-link {
     color: rgb(3, 187, 175);
-    font-size: 18px;
+    font-size: 20px;
     width: 150px;
   }
   .navbar-nav {
@@ -316,13 +326,24 @@ footer .icons li i:hover {
     padding: 30px;
     text-align: center;
     font-size: 18px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .img_card {
     width: 80%;
     -o-object-fit: contain;
        object-fit: contain;
     padding: 10px;
+  }
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  body {
+    min-height: 1100px;
+  }
+  main {
+    height: 840px;
   }
 }
 .boton, .btn-outline-danger, .btn-primary {

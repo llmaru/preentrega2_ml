@@ -26,6 +26,7 @@
         justify-content: space-evenly;
         font-family:$tipografia_principal;
         background-color: $color_secundario;
+        
     }
     .cv{
         height: 600px;
@@ -41,8 +42,6 @@
     padding: 30px;
     text-align: center;
     font-size: 18px;
-    font-family:$tipografia_principal;
-    
 }
 
 .img_card{
@@ -50,6 +49,23 @@
     object-fit: contain;
     padding:10px;
 }
+header{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    
+}
+
+body{
+    
+    min-height: 1100px;
+    }
+
+main{
+    
+    height: 840px;
+    
+  }
     
     
 }

@@ -20,7 +20,7 @@
         }       
         
         .navbar-nav{
-            @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
+            @include estilonavhamburguesa (25%, $color_navdesplegable, center); 
             z-index: 1;
            
         }
@@ -28,7 +28,8 @@
         .cv{
             height: 700px;
         }
-        
+
+               
         
         .h2_card{
             font-size: 18px;
@@ -49,6 +50,15 @@
             padding:10px;
             height: 30%
         }
+
+        body{
+            min-height: 1000px;
+             }
+         
+         main{
+             height: 900px;
+             
+           }
                 
             
        

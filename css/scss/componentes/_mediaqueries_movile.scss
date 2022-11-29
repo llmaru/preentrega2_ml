@@ -63,12 +63,21 @@
         }
                 
         .navbar-nav{
-            @include estilonavhamburguesa (25%, rgb(252, 178, 170), center); 
+            @include estilonavhamburguesa (25%, $color_navdesplegable, center); 
             z-index: 1;
         }
 
         .nav-link{
         color:$color_tipografia2;
         }
+
+        body{
+           min-height: 1320px;
+            }
+        
+        main{
+            height: 1200px;
+            
+          }
        
     }
