@@ -285,10 +285,10 @@ footer .icons li i:hover {
     height: 30%;
   }
   body {
-    min-height: 1000px;
+    min-height: 1320px;
   }
   main {
-    height: 900px;
+    height: 1200px;
   }
 }
 @media only screen and (min-width: 900px) {
