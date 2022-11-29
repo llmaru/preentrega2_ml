@@ -5,10 +5,12 @@
 
 body {
   background-color: white;
+  min-height: 1320px;
 }
 
 main {
   background-color: white;
+  height: 1200px;
 }
 
 img {
@@ -182,7 +184,7 @@ footer .icons li i:hover {
 
 @media only screen and (max-width: 600px) {
   .grid_section {
-    height: 1000px;
+    height: 900px;
     grid-template-columns: 90%;
     grid-template-rows: 100px 30px 200px 50px 300px;
     grid-template-areas: "titulo_principal" "titulo_secundario " "parrafo" "btn" "img";
@@ -237,16 +239,10 @@ footer .icons li i:hover {
   .nav-link {
     color: beige;
   }
-  body {
-    min-height: 1320px;
-  }
-  main {
-    height: 1200px;
-  }
 }
 @media only screen and (min-width: 600px) {
   .grid_section {
-    height: 1500px;
+    height: 800px;
     grid-template-columns: 90%;
     grid-template-rows: 100px 65px 200px 60px 300px;
     grid-template-areas: "titulo_principal" "titulo_secundario " "parrafo" "btn" "img";
@@ -284,11 +280,8 @@ footer .icons li i:hover {
     padding: 10px;
     height: 30%;
   }
-  body {
-    min-height: 1320px;
-  }
   main {
-    height: 1200px;
+    height: 1000px;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -301,7 +294,7 @@ footer .icons li i:hover {
     justify-items: center;
     align-items: center;
     background-color: white;
-    height: 500px;
+    height: 600px;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -338,12 +331,6 @@ footer .icons li i:hover {
     -o-object-fit: contain;
        object-fit: contain;
     padding: 10px;
-  }
-  body {
-    min-height: 1100px;
-  }
-  main {
-    height: 840px;
   }
 }
 .boton, .btn-outline-danger, .btn-primary {

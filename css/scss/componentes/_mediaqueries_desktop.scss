@@ -11,7 +11,7 @@
         justify-items: center;
         align-items: center;
         background-color: $color_principal;
-        height: 500px;
+        height: 600px;
         @include margenes (100px, 100px);
     }
     header{
@@ -57,16 +57,7 @@
     }
 
 
-    body{
-        
-        min-height: 1100px;
-        }
-
-    main{
-        
-        height: 840px;
-        
-    }
+    
     
     
 }
